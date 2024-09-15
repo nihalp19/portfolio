@@ -1,5 +1,7 @@
+import Bio from "./components/Bio"
 import Hero from "./components/Hero"
 import Navbar from "./components/Navbar"
+import Projects from "./components/Projects"
 function App() {
   return (
     <div className="relative h-full overflow-y-auto antialiased">
@@ -7,6 +9,8 @@ function App() {
       <div className="relative z-10 flex flex-col items-center p-4 space-y-8 container mx-auto">
         <Hero />
         <Navbar/>
+        <Projects/>
+        <Bio/>
       </div>
     </div>
   )
