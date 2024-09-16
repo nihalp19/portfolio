@@ -1,4 +1,7 @@
 import Bio from "./components/Bio"
+import ContactForm from "./components/ContactForm"
+import EducationSection from "./components/EducationSection"
+import Footer from "./components/Footer"
 import Hero from "./components/Hero"
 import Navbar from "./components/Navbar"
 import Projects from "./components/Projects"
@@ -14,7 +17,9 @@ function App() {
         <Projects/>
         <Bio/>
         <Skills/>
-        <WorkExperience/>
+        <EducationSection/>
+        <ContactForm/>
+        <Footer/>
       </div>
     </div>
   )

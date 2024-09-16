@@ -1,6 +1,6 @@
 import React from 'react'
 import { HERO } from "../constants/index"
-import carImg from "../assets/carl.jpeg"
+import nihal from "../assets/nihal.png"
 
 function Hero() {
   return (
@@ -16,7 +16,7 @@ function Hero() {
       </div>
       <div className='w-full md:w-1/2 lg:p-8'>
         <div className='flex justify-center'>
-          <img src={carImg} width={550} height={550} alt='Nihal Panday'  className='rounded-3xl'/>
+          <img src={nihal} width={550} height={550} alt='Nihal Panday' className='rounded-3xl' />
         </div>
       </div>
     </section>

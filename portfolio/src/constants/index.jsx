@@ -14,12 +14,16 @@ import projectImage4 from "../assets/project4.jpeg";
 import projectImage5 from "../assets/project5.jpeg";
 import projectImage6 from "../assets/project6.jpeg";
 
+
+import { DiPython } from "react-icons/di";
+import { DiPhp } from "react-icons/di";
 import { RiReactjsLine } from "react-icons/ri";
 import { TbBrandNextjs } from "react-icons/tb";
 import { SiMongodb } from "react-icons/si";
 import { DiRedis } from "react-icons/di";
 import { FaNodeJs } from "react-icons/fa";
 import { BiLogoPostgresql } from "react-icons/bi";
+import { DiJsBadge } from "react-icons/di";
 
 export const NAVIGATION_LINKS = [
   { label: "Projects", href: "#projects" },
@@ -31,10 +35,10 @@ export const NAVIGATION_LINKS = [
 ];
 
 export const HERO = {
-  name: "CARL FRANK",
+  name: "Nihal Panday",
   greet: "Hello there! 👋🏻",
   description:
-    "I am a passionate frontend developer with a knack for creating beautiful and functional user interfaces. I like transforming ideas into engaging web experiences for over a decade.",
+    "I am a passionate frontend developer with a knack for creating beautiful and functional user interfaces. I like transforming ideas into engaging web experiences for over a year.",
 };
 
 export const PROJECTS = [
@@ -44,86 +48,89 @@ export const PROJECTS = [
     description:
       "A personal portfolio website built with React and Tailwind CSS to showcase my skills, projects, and contact information.",
     image: projectImage1,
-    githubLink: "https://github.com/user/personal-portfolio",
+    githubLink: "https://github.com/nihalp19/portfolio",
   },
   {
     id: 2,
-    name: "E-Commerce Platform",
+    name: "Netflix Clone",
     description:
-      "An e-commerce web application developed using Next.js and Stripe for payment integration, featuring a comprehensive product catalog, shopping cart, and checkout system.",
+      "A Netflix clone using IMDb API for data, Firebase for authentication and storage, and Redux for efficient state management.",
     image: projectImage2,
-    githubLink: "https://github.com/user/ecommerce-platform",
+    githubLink: "https://github.com/nihalp19/netflixClone",
   },
   {
     id: 3,
-    name: "Task Management Tool",
+    name: "Chat App",
     description:
-      "A task management application built with React and Redux for efficient task tracking and team collaboration, including features like project boards, task assignment, and progress tracking.",
+      "A chat app using Firebase for real-time messaging, user authentication, and database storage, ensuring seamless communication and scalability.",
     image: projectImage3,
-    githubLink: "https://github.com/user/task-management-tool",
+    githubLink: "https://github.com/nihalp19/chatApp",
   },
   {
     id: 4,
-    name: "Weather App",
+    name: "Currency Converter",
     description:
-      "A weather application that uses the OpenWeatherMap API to fetch and display current weather data and forecasts for various locations, built with React and styled-components.",
+      "A currency converter application that fetches real-time exchange rates from an API, allowing users to convert between currencies with an intuitive interface for accurate and fast calculations.",
     image: projectImage4,
-    githubLink: "https://github.com/user/weather-app",
+    githubLink: "https://github.com/nihalp19/CurrencyConverter",
   },
   {
     id: 5,
-    name: "Blog Platform",
+    name: "Advanced CRUD App",
     description:
-      "A blogging platform developed with Next.js and Markdown for creating, editing, and publishing blog posts. It features a rich text editor, tag system, and user authentication.",
+      "An Advanced CRUD App utilizing useReducer for efficient state management, with a built-in search feature to filter and manage records dynamically and efficiently.",
     image: projectImage5,
-    githubLink: "https://github.com/user/blog-platform",
+    githubLink: "https://github.com/nihalp19/AdvancedCrudApp",
   },
   {
     id: 6,
-    name: "Chat Application",
+    name: "Instagram Clone",
     description:
-      "A real-time chat application using Firebase for backend services, including user authentication, chat rooms, and instant messaging features. Built with React and Firebase.",
+      "An Instagram clone built with Firebase for user authentication, real-time database, and storage, enabling photo uploads, comments, likes, and user profile management seamlessly",
     image: projectImage6,
-    githubLink: "https://github.com/user/chat-application",
+    githubLink: "https://github.com/nihalp19/InstagramClone",
   },
 ];
 
 export const BIO = [
-  "Carl Frank studied computer science at the University of Technology,from which he graduated in 2010. Following his education, he honed his craft and expertise over the course of 10 years at Tech Innovations Inc., where he immersed himself in the world of frontend development.",
-  "In 2021, driven by a shared vision for innovative web solutions and a passion for creating extraordinary user experiences Carl Frank co-founded WebArtistry alongside his creative partner, Jane Doe. Together, they set out to redefine frontend development, infusing their projects with creativity and cutting-edge technology.",
-  "As a multi-disciplinary frontend developer, Carl Frank brings a wealth of skills and expertise to his work. From his deep understanding of HTML, CSS, and JavaScript to his proficiency in modern frameworks like React and Vue.js, Carl Frank possesses a versatile skill set that allows him to craft stunning and unforgettable web experiences for his clients and audiences alike.",
+  "I am Nihal Panday, a passionate frontend developer currently pursuing a BCA degree. With a strong interest in web development, I have been sharpening my skills in HTML, CSS, and JavaScript, as well as modern frameworks like React. I am eager to apply my knowledge in a professional setting and am actively seeking internships and frontend development roles where I can contribute my growing expertise to innovative and creative web solutions.",
 ];
 
 export const SKILLS = [
   {
     icon: <RiReactjsLine className="text-4xl text-cyan-400 lg:text-5xl" />,
     name: "React",
-    experience: "2+ years",
+    experience: "1 year",
   },
   {
-    icon: <TbBrandNextjs className="text-4xl text-white lg:text-5xl" />,
-    name: "Next.js",
+    icon: <DiJsBadge className="text-4xl text-yellow-400 lg:text-5xl" />,
+    name: "Javascript",
     experience: "1+ year",
   },
   {
     icon: <SiMongodb className="text-4xl text-green-600 lg:text-5xl" />,
     name: "MongoDB",
-    experience: "1.5+ years",
+    experience: "1+ year",
   },
   {
-    icon: <DiRedis className="text-4xl text-red-600 lg:text-5xl" />,
-    name: "Redis",
-    experience: "1+ year",
+    icon: <DiPython className="text-4xl text-yellow-400 lg:text-5xl" />,
+    name: "Python",
+    experience: "1 year",
   },
   {
     icon: <FaNodeJs className="text-4xl text-green-600 lg:text-5xl" />,
     name: "Node.js",
-    experience: "2+ years",
+    experience: "1 years",
   },
   {
     icon: <BiLogoPostgresql className="text-4xl text-sky-700 lg:text-5xl" />,
     name: "PostgreSQL",
     experience: "1+ year",
+  },
+  {
+    icon: <DiPhp className="text-4xl text-purple-700 lg:text-5xl" />,
+    name: "Php",
+    experience: "1 year",
   },
 ];
 
@@ -153,44 +160,32 @@ export const EXPERIENCES = [
 
 export const EDUCATION = [
   {
-    degree: "Master of Science in Computer Science",
-    institution: "Stanford University",
-    duration: "September 2012 - June 2014",
+    degree: "Bachelor in Computer Applications",
+    institution: "MIT-WPU Pune",
+    duration: "August 2022 - March 2025",
     description:
-      "Specialized in Human-Computer Interaction and Software Engineering. Completed a thesis on enhancing user experience in web applications through advanced interactive techniques. Participated in various projects involving frontend development, algorithms, and data structures. Graduated with honors.",
+      "Specialized in Web Development and Software Engineering. Completed multiple projects focusing on dynamic websites, user interfaces, and responsive design. Gained expertise in HTML, CSS, JavaScript, and React, while also building a strong foundation in algorithms, data structures, and databases. Actively engaged in hands-on learning, contributing to real-world web development projects.",
   },
   {
-    degree: "Bachelor of Science in Information Technology",
-    institution: "University of California, Berkeley",
-    duration: "September 2008 - June 2012",
+    degree: "Higher Secondary(PCM)",
+    institution: "ABDS.Jr College",
+    duration: "June 2020 - March 2022",
     description:
-      "Focused on web development, programming languages, and database management. Actively involved in coding clubs and hackathons, where I developed several web applications using HTML, CSS, JavaScript, and PHP. Completed a senior project on developing an e-commerce platform. Graduated with a high GPA.",
+      "Completed the PMC (Physics, Mathematics, Chemistry) stream in the HSC board under the Maharashtra State Board of Secondary and Higher Secondary Education. Gained a solid foundation in scientific principles and problem-solving, preparing for advanced studies in technology and engineering. This academic background supports a strong analytical and technical skill set.",
   },
 ];
 
 export const SOCIAL_MEDIA_LINKS = [
   {
-    href: "https://x.com/",
-    icon: <FaFacebook fontSize={25} className="hover:opacity-80" />,
-  },
-  {
-    href: "https://x.com/",
-    icon: <FaDiscord fontSize={25} className="hover:opacity-80" />,
-  },
-  {
-    href: "https://x.com/",
-    icon: <FaInstagram fontSize={25} className="hover:opacity-80" />,
-  },
-  {
-    href: "https://x.com/",
+    href: "https://x.com/Nihal_019?t=p_wnZesG8b1k-ZBNG0Gaxw&s=08",
     icon: <FaXTwitter fontSize={25} className="hover:opacity-80" />,
   },
   {
-    href: "https://github.com/",
+    href: "https://github.com/nihalp19",
     icon: <FaGithub fontSize={25} className="hover:opacity-80" />,
   },
   {
-    href: "https://www.linkedin.com/",
+    href: "https://linkedin.com/in/nihal-panday-675721254",
     icon: <FaLinkedin fontSize={25} className="hover:opacity-80" />,
   },
 ];
