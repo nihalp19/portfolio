@@ -73,17 +73,17 @@ function App() {
     {
       title: "Full Stack Development",
       description: "Complete web applications with both frontend and backend implementation",
-      price: "Starting from $2000"
+      price: "Starting from $1500"
     },
     {
       title: "Frontend Development",
       description: "Responsive and interactive user interfaces using modern frameworks",
-      price: "Starting from $1000"
+      price: "Starting from $500"
     },
     {
       title: "Backend Development",
       description: "Robust server-side solutions and API development",
-      price: "Starting from $1500"
+      price: "Starting from $1000"
     }
   ];
 
@@ -160,9 +160,8 @@ function App() {
                 <motion.button
                   key={item.id}
                   onClick={() => scrollToSection(item.id)}
-                  className={`text-lg font-medium py-2 transition-colors ${
-                    activeSection === item.id ? 'text-white' : 'text-neutral-400'
-                  }`}
+                  className={`text-lg font-medium py-2 transition-colors ${activeSection === item.id ? 'text-white' : 'text-neutral-400'
+                    }`}
                   whileHover={{ x: 10 }}
                 >
                   {item.label}
@@ -173,27 +172,27 @@ function App() {
         </motion.div>
       )}
 
-      <div 
+      <div
         className="min-h-screen bg-[#030303] text-white pt-16"
         onMouseEnter={() => setCursorVariant("default")}
       >
         {/* Hero Section */}
-        <motion.header 
+        <motion.header
           id="home"
           className="h-screen flex items-center justify-center relative overflow-hidden -mt-16"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 1 }}
         >
-          <motion.div 
+          <motion.div
             className="absolute inset-0 bg-gradient-to-br from-neutral-900/80 to-black"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 2 }}
           />
-          
+
           <div className="absolute inset-0 opacity-[0.015] bg-[url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMDAiIGhlaWdodD0iMzAwIj48ZmlsdGVyIGlkPSJhIiB4PSIwIiB5PSIwIj48ZmVUdXJidWxlbmNlIGJhc2VGcmVxdWVuY3k9Ii43NSIgc3RpdGNoVGlsZXM9InN0aXRjaCIgdHlwZT0iZnJhY3RhbE5vaXNlIi8+PGZlQ29sb3JNYXRyaXggdHlwZT0ic2F0dXJhdGUiIHZhbHVlcz0iMCIvPjwvZmlsdGVyPjxyZWN0IHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbHRlcj0idXJsKCNhKSIgb3BhY2l0eT0iLjA1Ii8+PC9zdmc+')] pointer-events-none" />
-          
+
           <motion.div
             className="absolute top-1/4 -left-32 w-96 h-96 bg-neutral-500/10 rounded-full blur-[160px]"
             variants={glowVariants}
@@ -220,7 +219,7 @@ function App() {
                 onMouseEnter={() => setCursorVariant("text")}
                 onMouseLeave={() => setCursorVariant("default")}
               >
-                <motion.h1 
+                <motion.h1
                   className="text-4xl sm:text-6xl md:text-8xl lg:text-[9rem] font-bold leading-none tracking-tighter bg-clip-text text-transparent bg-gradient-to-b from-white via-white/90 to-neutral-600"
                   initial={{ y: 100 }}
                   animate={{ y: 0 }}
@@ -230,7 +229,7 @@ function App() {
                 </motion.h1>
               </motion.div>
 
-              <motion.h2 
+              <motion.h2
                 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl mb-4 md:mb-6 font-light tracking-widest"
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
@@ -260,7 +259,7 @@ function App() {
                 transition={{ duration: 0.6, delay: 0.6 }}
               >
                 <motion.a
-                  href="/resume.pdf"
+                  href="https://drive.google.com/file/d/1-LF7NAhyvmWBsmMme5cX2-FifkOvG4Yy/view?usp=sharing"
                   target="_blank"
                   className="inline-flex items-center gap-2 px-6 py-3 bg-white text-black rounded-lg font-medium hover:bg-neutral-200 transition-colors"
                   whileHover={{ y: -2 }}
@@ -273,16 +272,16 @@ function App() {
                 </motion.a>
               </motion.div>
 
-              <motion.div 
+              <motion.div
                 className="flex gap-4 md:gap-8 justify-center items-center"
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6, delay: 0.7 }}
               >
-                <motion.a 
-                  href="https://github.com" 
-                  target="_blank" 
-                  rel="noopener noreferrer" 
+                <motion.a
+                  href="https://github.com/nihalp19"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="p-3 md:p-5 bg-neutral-900/50 hover:bg-neutral-800 rounded-xl md:rounded-2xl backdrop-blur-sm border border-neutral-800/50 transform hover:scale-110 transition-all duration-300 hover:shadow-[0_0_25px_rgba(255,255,255,0.1)]"
                   whileHover={{ y: -5 }}
                   whileTap={{ scale: 0.95 }}
@@ -291,10 +290,10 @@ function App() {
                 >
                   <Github className="w-6 h-6 md:w-8 md:h-8" />
                 </motion.a>
-                <motion.a 
-                  href="https://linkedin.com" 
-                  target="_blank" 
-                  rel="noopener noreferrer" 
+                <motion.a
+                  href="https://shorturl.at/1okEz"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="p-3 md:p-5 bg-neutral-900/50 hover:bg-neutral-800 rounded-xl md:rounded-2xl backdrop-blur-sm border border-neutral-800/50 transform hover:scale-110 transition-all duration-300 hover:shadow-[0_0_25px_rgba(255,255,255,0.1)]"
                   whileHover={{ y: -5 }}
                   whileTap={{ scale: 0.95 }}
@@ -303,8 +302,8 @@ function App() {
                 >
                   <Linkedin className="w-6 h-6 md:w-8 md:h-8" />
                 </motion.a>
-                <motion.a 
-                  href="mailto:nihalpanday2020@gmail.com" 
+                <motion.a
+                  href="mailto:nihalpanday2020@gmail.com"
                   className="p-3 md:p-5 bg-neutral-900/50 hover:bg-neutral-800 rounded-xl md:rounded-2xl backdrop-blur-sm border border-neutral-800/50 transform hover:scale-110 transition-all duration-300 hover:shadow-[0_0_25px_rgba(255,255,255,0.1)]"
                   whileHover={{ y: -5 }}
                   whileTap={{ scale: 0.95 }}
@@ -313,8 +312,8 @@ function App() {
                 >
                   <Mail className="w-6 h-6 md:w-8 md:h-8" />
                 </motion.a>
-                <motion.a 
-                  href="tel:+917249865498" 
+                <motion.a
+                  href="tel:+917249865498"
                   className="p-3 md:p-5 bg-neutral-900/50 hover:bg-neutral-800 rounded-xl md:rounded-2xl backdrop-blur-sm border border-neutral-800/50 transform hover:scale-110 transition-all duration-300 hover:shadow-[0_0_25px_rgba(255,255,255,0.1)]"
                   whileHover={{ y: -5 }}
                   whileTap={{ scale: 0.95 }}
@@ -325,7 +324,7 @@ function App() {
                 </motion.a>
               </motion.div>
 
-              <motion.div 
+              <motion.div
                 className="absolute bottom-8 md:bottom-12 left-1/2 transform -translate-x-1/2"
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1, y: [0, 10, 0] }}
@@ -349,7 +348,7 @@ function App() {
           viewport={{ once: true }}
         >
           <div className="container mx-auto px-4">
-            <h2 
+            <h2
               className="text-3xl md:text-4xl font-bold mb-8 md:mb-12 text-center"
               onMouseEnter={() => setCursorVariant("text")}
               onMouseLeave={() => setCursorVariant("default")}
@@ -357,7 +356,7 @@ function App() {
               ABOUT ME
             </h2>
             <div className="max-w-3xl mx-auto">
-              <motion.p 
+              <motion.p
                 className="text-neutral-300 text-lg leading-relaxed mb-6"
                 initial={{ y: 20, opacity: 0 }}
                 whileInView={{ y: 0, opacity: 1 }}
@@ -368,7 +367,7 @@ function App() {
               >
                 I'm a passionate MERN Stack developer with a strong foundation in both frontend and backend development. My journey in web development started during my BCA studies, and I've since worked on various projects that have helped me develop a deep understanding of modern web technologies.
               </motion.p>
-              <motion.p 
+              <motion.p
                 className="text-neutral-300 text-lg leading-relaxed"
                 initial={{ y: 20, opacity: 0 }}
                 whileInView={{ y: 0, opacity: 1 }}
@@ -384,7 +383,7 @@ function App() {
         </motion.section>
 
         {/* Skills Section */}
-        <motion.section 
+        <motion.section
           id="skills"
           className="py-12 md:py-20 bg-neutral-900/50 backdrop-blur-lg"
           initial={{ opacity: 0 }}
@@ -393,7 +392,7 @@ function App() {
           viewport={{ once: true }}
         >
           <div className="container mx-auto px-4">
-            <h2 
+            <h2
               className="text-3xl md:text-4xl font-bold mb-8 md:mb-12 text-center"
               onMouseEnter={() => setCursorVariant("text")}
               onMouseLeave={() => setCursorVariant("default")}
@@ -427,7 +426,7 @@ function App() {
         </motion.section>
 
         {/* Experience Section */}
-        <motion.section 
+        <motion.section
           id="experience"
           className="py-12 md:py-20 bg-black"
           initial={{ opacity: 0 }}
@@ -436,7 +435,7 @@ function App() {
           viewport={{ once: true }}
         >
           <div className="container mx-auto px-4">
-            <h2 
+            <h2
               className="text-3xl md:text-4xl font-bold mb-8 md:mb-12 text-center"
               onMouseEnter={() => setCursorVariant("text")}
               onMouseLeave={() => setCursorVariant("default")}
@@ -444,7 +443,7 @@ function App() {
               WORK EXPERIENCE
             </h2>
             <div className="space-y-6 md:space-y-8">
-              <motion.div 
+              <motion.div
                 className="bg-neutral-900/50 backdrop-blur-sm p-4 md:p-6 rounded-lg border border-neutral-800 hover:shadow-[0_0_30px_rgba(255,255,255,0.1)]"
                 initial={{ x: -100, opacity: 0 }}
                 whileInView={{ x: 0, opacity: 1 }}
@@ -463,7 +462,7 @@ function App() {
                 </ul>
               </motion.div>
 
-              <motion.div 
+              <motion.div
                 className="bg-neutral-900/50 backdrop-blur-sm p-4 md:p-6 rounded-lg border border-neutral-800 hover:shadow-[0_0_30px_rgba(255,255,255,0.1)]"
                 initial={{ x: 100, opacity: 0 }}
                 whileInView={{ x: 0, opacity: 1 }}
@@ -486,7 +485,7 @@ function App() {
         </motion.section>
 
         {/* Projects Section */}
-        <motion.section 
+        <motion.section
           id="projects"
           className="py-12 md:py-20 bg-neutral-900/50 backdrop-blur-lg"
           initial={{ opacity: 0 }}
@@ -495,7 +494,7 @@ function App() {
           viewport={{ once: true }}
         >
           <div className="container mx-auto px-4">
-            <h2 
+            <h2
               className="text-3xl md:text-4xl font-bold mb-8 md:mb-12 text-center"
               onMouseEnter={() => setCursorVariant("text")}
               onMouseLeave={() => setCursorVariant("default")}
@@ -503,7 +502,7 @@ function App() {
               PROJECTS
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8">
-              <motion.div 
+              <motion.div
                 className="bg-neutral-900/50 backdrop-blur-sm p-4 md:p-6 rounded-lg border border-neutral-800 hover:shadow-[0_0_30px_rgba(255,255,255,0.1)]"
                 whileHover={{ scale: 1.02 }}
                 transition={{ type: "spring", stiffness: 300 }}
@@ -516,8 +515,8 @@ function App() {
                   <li>Real-time MERN stack application with Socket.io</li>
                   <li>Modern UI using DaisyUI</li>
                 </ul>
-                <motion.a 
-                  href="#" 
+                <motion.a
+                  href="https://github.com/nihalp19/chatApp"
                   className="inline-flex items-center gap-2 mt-4 px-4 md:px-6 py-2 bg-white text-black rounded-lg transform hover:scale-105 transition-all text-sm md:text-base"
                   whileHover={{ y: -2 }}
                   whileTap={{ scale: 0.95 }}
@@ -527,7 +526,7 @@ function App() {
                 </motion.a>
               </motion.div>
 
-              <motion.div 
+              <motion.div
                 className="bg-neutral-900/50 backdrop-blur-sm p-4 md:p-6 rounded-lg border border-neutral-800 hover:shadow-[0_0_30px_rgba(255,255,255,0.1)]"
                 whileHover={{ scale: 1.02 }}
                 transition={{ type: "spring", stiffness: 300 }}
@@ -540,8 +539,8 @@ function App() {
                   <li>Secure Notes App using MERN stack</li>
                   <li>JWT authentication implementation</li>
                 </ul>
-                <motion.a 
-                  href="#" 
+                <motion.a
+                  href="https://github.com/nihalp19/notesApp"
                   className="inline-flex items-center gap-2 mt-4 px-4 md:px-6 py-2 bg-white text-black rounded-lg transform hover:scale-105 transition-all text-sm md:text-base"
                   whileHover={{ y: -2 }}
                   whileTap={{ scale: 0.95 }}
@@ -564,7 +563,7 @@ function App() {
           viewport={{ once: true }}
         >
           <div className="container mx-auto px-4">
-            <h2 
+            <h2
               className="text-3xl md:text-4xl font-bold mb-8 md:mb-12 text-center"
               onMouseEnter={() => setCursorVariant("text")}
               onMouseLeave={() => setCursorVariant("default")}
@@ -604,7 +603,7 @@ function App() {
           viewport={{ once: true }}
         >
           <div className="container mx-auto px-4">
-            <h2 
+            <h2
               className="text-3xl md:text-4xl font-bold mb-8 md:mb-12 text-center"
               onMouseEnter={() => setCursorVariant("text")}
               onMouseLeave={() => setCursorVariant("default")}
@@ -665,7 +664,7 @@ function App() {
         </motion.section>
 
         {/* Education Section */}
-        <motion.section 
+        <motion.section
           className="py-12 md:py-20 bg-black"
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
@@ -673,14 +672,14 @@ function App() {
           viewport={{ once: true }}
         >
           <div className="container mx-auto px-4">
-            <h2 
+            <h2
               className="text-3xl md:text-4xl font-bold mb-8 md:mb-12 text-center"
               onMouseEnter={() => setCursorVariant("text")}
               onMouseLeave={() => setCursorVariant("default")}
             >
               EDUCATION
             </h2>
-            <motion.div 
+            <motion.div
               className="bg-neutral-900/50 backdrop-blur-sm p-4 md:p-6 rounded-lg border border-neutral-800 max-w-2xl mx-auto hover:shadow-[0_0_30px_rgba(255,255,255,0.1)]"
               initial={{ y: 50, opacity: 0 }}
               whileInView={{ y: 0, opacity: 1 }}
