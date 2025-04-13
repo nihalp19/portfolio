@@ -428,7 +428,7 @@ function App() {
         {/* Experience Section */}
         <motion.section
           id="experience"
-          className="py-12 md:py-20 bg-black"
+          className="py-12 md:py-20 bg-black w-full overflow-x-hidden"
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           transition={{ duration: 0.8 }}
