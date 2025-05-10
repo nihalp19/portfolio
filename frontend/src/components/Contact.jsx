@@ -204,7 +204,7 @@ const Contact = ({ setCursorVariant }) => {
                 <div>
                   <h3 className="text-xl font-semibold mb-6">Location</h3>
                   <p>Based in Pune, India</p>
-                  <p className="mt-2">Open to work in Pune, Mumbai, Delhi, and Bangalore</p>
+                  <p className="mt-2">Open to working remotely or in Pune, Mumbai, Delhi, or Bangalore.</p>
                 </div>
               </div>
             </motion.div>
