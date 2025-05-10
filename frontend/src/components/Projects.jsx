@@ -23,6 +23,8 @@ const Project = ({ title, date, description, link, setCursorVariant }) => {
         className="inline-flex items-center gap-2 mt-4 px-4 md:px-6 py-2 bg-white text-black rounded-lg transform hover:scale-105 transition-all text-sm md:text-base"
         whileHover={{ y: -2 }}
         whileTap={{ scale: 0.95 }}
+        target="_blank"
+        rel="noopener noreferrer"
       >
         View Project
         <ExternalLink className="w-4 h-4" />
@@ -36,66 +38,91 @@ const Projects = ({ setCursorVariant }) => {
 
   const frontendProjects = [
     {
-      title: "E-commerce UI (React)",
-      date: "Dec 2024",
+      title: "Agency Website",
+      date: "Jan 2025",
       description: [
-        "Responsive e-commerce frontend with React & Tailwind",
-        "Product filtering and cart functionality"
+        "Modern agency website built with React",
+        "Smooth animations using Framer Motion",
+        "Contact form integration with EmailJS"
       ],
-      link: "https://github.com/nihalp19/ecommerce-ui"
+      link: "https://www.magnetiqmedia.in/"
     },
     {
-      title: "Portfolio Template",
-      date: "Nov 2024",
+      title: "GoGetWellAI",
+      date: "Dec 2024",
       description: [
-        "Modern portfolio design with animations",
-        "Built with React and Framer Motion"
+        "AI-powered healthcare platform UI",
+        "Interactive animations with Framer Motion",
+        "Responsive design with Tailwind CSS"
       ],
-      link: "https://github.com/nihalp19/portfolio-template"
+      link: "https://go-getwellai.vercel.app/"
+    },
+    {
+      title: "Crypto Expense Tracker",
+      date: "Feb 2025",
+      description: [
+        "Real-time cryptocurrency price tracking with CoinGecko API",
+        "State management using Zustand",
+        "Data fetching with Axios"
+      ],
+      link: "https://cryptotracker-one-pi.vercel.app/"
     }
   ];
 
   const backendProjects = [
     {
-      title: "RESTful API (Express)",
-      date: "Jan 2025",
+      title: "AI Agent Wrapper API",
+      date: "Feb 2025",
       description: [
-        "Comprehensive RESTful API with Express.js",
-        "JWT authentication and role-based access control",
-        "MongoDB integration with proper error handling"
+        "FastAPI backend for AI agent integration",
+        "Standardized parameters for Retell and VAPI",
+        "Efficient error handling and response formatting",
       ],
-      link: "https://github.com/nihalp19/express-rest-api"
+      link: "https://github.com/nihalp19/ai-agent-wrapper"
     }
   ];
 
   const fullstackProjects = [
     {
-      title: "Chat App (MERN STACK)",
-      date: "Dec 2024 - Feb 2025",
+      title: "E-commerce Platform",
+      date: "Jan 2025 - Present",
       description: [
-        "Real-time MERN stack application with Socket.io",
-        "Modern UI using DaisyUI"
+        "Full-stack e-commerce solution with React and Node.js",
+        "Stripe integration for secure payments",
+        "Redis implementation for performance optimization",
       ],
-      link: "https://github.com/nihalp19/chatApp"
+      link: "https://github.com/nihalp19/Ecommerce"
     },
     {
-      title: "Notes App (MERN STACK)",
-      date: "Jan 2025 - Feb 2025",
+      title: "URL Shortener",
+      date: "Dec 2024 - Jan 2025",
       description: [
-        "Secure Notes App using MERN stack",
-        "JWT authentication implementation"
+        "URL shortening service with React and Node.js",
+        "Analytics dashboard with Recharts",
+        "State management using Zustand",
       ],
-      link: "https://github.com/nihalp19/notesApp"
+      link: "https://url-shortner-three-sooty.vercel.app/"
     },
     {
-      title: "Project Management Dashboard",
-      date: "Oct 2024 - Dec 2024",
+      title: "GRIPPi Clone",
+      date: "Nov 2024 - Dec 2024",
       description: [
-        "Full-featured project management system",
-        "User roles, task assignments, and reporting",
-        "Real-time updates with websockets"
+        "Campaign management system with React and FastAPI",
+        "Advanced campaign tracking and analytics",
+        "Analytics dashboard with Recharts",
       ],
-      link: "https://github.com/nihalp19/project-manager"
+      link: "https://grippi-nu.vercel.app/"
+    },
+    {
+      title: "Real-time Chat App",
+      date: "Feb 2025",
+      description: [
+        "Full-stack chat application with MERN stack",
+        "Real-time messaging with Socket.io",
+        "User authentication and private messaging",
+        "Message history and file sharing"
+      ],
+      link: "https://github.com/nihalp19/chatAppMern"
     }
   ];
 
