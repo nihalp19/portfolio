@@ -259,7 +259,7 @@ function App() {
                 transition={{ duration: 0.6, delay: 0.6 }}
               >
                 <motion.a
-                  href="hhttps://drive.google.com/file/d/1j9cvyB2bPovhN_JBZ3ZL2ainngBs1oPB/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1j9cvyB2bPovhN_JBZ3ZL2ainngBs1oPB/view?usp=sharing"
                   target="_blank"
                   className="inline-flex items-center gap-2 px-6 py-3 bg-white text-black rounded-lg font-medium hover:bg-neutral-200 transition-colors"
                   whileHover={{ y: -2 }}
