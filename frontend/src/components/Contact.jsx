@@ -44,7 +44,7 @@ const Contact = ({ setCursorVariant }) => {
   return (
     <motion.section
       id="contact"
-      className="py-12 md:py-20 bg-black"
+      className="py-12 md:py-20 bg-black overflow-y-hidden"
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}
       transition={{ duration: 0.8 }}

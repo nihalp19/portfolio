@@ -78,7 +78,7 @@ const Projects = ({ setCursorVariant }) => {
         "Standardized parameters for Retell and VAPI",
         "Efficient error handling and response formatting",
       ],
-      link: "https://github.com/nihalp19/ai-agent-wrapper"
+      link: "https://github.com/nihalp19/Wrapper"
     }
   ];
 
